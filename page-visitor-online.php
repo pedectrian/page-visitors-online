@@ -35,10 +35,8 @@ class PageVisitorsOnline
 
 		if ($user) {
 			global $wpdb;
-			global $post;
 
 			$table_name = $wpdb->prefix . 'page_visitors_online';
-			$postID = $post->ID;
 			$now = new \DateTime('now -2 minute');
 
 			$wpdb->query(
@@ -51,10 +49,11 @@ class PageVisitorsOnline
 					$user
 				)
 			);
-
+			global $wp_query;
+			$thePostID = $wp_query->post->ID;
 			$wpdb->insert($table_name , array(
 					'visit_date' => date('Y-m-d H:i:s'),
-					'page_id' => get_queried_object_id(),
+					'page_id' => $thePostID,
 					'user_hash' => $user
 				)
 			);
@@ -87,8 +86,11 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
+
+		global $wp_query;
+		$thePostID = $wp_query->post->ID;
 		$visits = $wpdb->query(
-			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = " . get_queried_object_id()
+			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = $thePostID"
 		);
 		return 'Просмотров: <b>за все время: </b>0<b>, за сегодня: </b>0.<b> Читают сейчас: </b>' . $visits;
 	}
