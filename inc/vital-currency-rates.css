@@ -1,0 +1,66 @@
+.vc-rates-label,
+.vc-rates-value,
+.vc-rates {
+  display: inline-block;
+}
+
+.vc-rates {
+  margin-right: 10px;
+}
+
+.vc-rates-label {
+  margin-right: 3px;
+}
+
+.vc-rates-value {
+  font-size: 15px;
+  color: #555;
+}
+
+.vc-rates-up {
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-position: 0px 0px;
+  background-image: url("./img/icons.png");
+  background-repeat: no-repeat;
+  margin: 0 0 2px 2px;
+}
+.vc-rates-oil {
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background-position: 0px -36px;
+  background-image: url("./img/icons.png");
+  background-repeat: no-repeat;
+}
+
+.vc-rates-down {
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-position: 0px -18px;
+  background-image: url("./img/icons.png");
+  background-repeat: no-repeat;
+  margin: 0 0 2px 2px;
+}
+
+.pre-content-line {
+  margin-bottom: 10px;
+}
+.pre-content-line .left-column,
+.pre-content-line .right-column {
+  display: inline-block;
+  width: 465px;
+}
+
+.pre-content-line .right-column {
+  text-align: right;
+}
+
+.pre-content-line .left-column input[type="text"] {
+  width: 177px;
+  padding: 10px;
+  background: #fff url(img/searchsubmit.png) no-repeat 96% 8px !important;
+}
+
