@@ -31,12 +31,12 @@
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7685185" vertical-offset="882" max-vertical-offset="1530">
-              <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
+              <caret line="92" column="73" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430177816000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
-                <marker date="1430177816000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
-                <marker date="1430177816000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
+                <marker date="1430177856000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
+                <marker date="1430177856000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
+                <marker date="1430177856000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -231,12 +231,12 @@
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7685185" vertical-offset="882" max-vertical-offset="1530">
-          <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
+          <caret line="92" column="73" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430177816000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
-            <marker date="1430177816000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
-            <marker date="1430177816000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
+            <marker date="1430177856000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
+            <marker date="1430177856000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
+            <marker date="1430177856000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
