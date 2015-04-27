@@ -12,6 +12,8 @@ class PageVisitorsOnline
 {
 	const DB_VERSION = '0.0.1';
 
+	public $table_name;
+
 	public function __construct()
 	{
 		add_action( 'init', array( $this, 'init' ) );
@@ -20,6 +22,8 @@ class PageVisitorsOnline
 
 	public function init()
 	{
+		global $wpdb;
+
 		$user = isset($_COOKIE['pvo_hash']) ? $_COOKIE['pvo_hash'] : null;
 
 		if (!is_admin() && !$user) {
@@ -27,6 +31,29 @@ class PageVisitorsOnline
 
 			setcookie('pvo_hash', $user, time()+3600*24*100);
 		}
+
+		global $wpdb;
+		global $post;
+
+		$table_name = $wpdb->prefix . 'page_visitors_online';
+		$postID = $post->ID;
+
+		$wpdb->query(
+			$wpdb->prepare(
+				"
+                DELETE FROM $wpdb->postmeta
+				 WHERE user_hash = %s
+				",
+				$user
+			)
+		);
+		
+		$wpdb->insert($table_name , array(
+				'visit_time' => date('Y-m-d H:i:s'),
+				'page_id' => $postID,
+				'user_hash' => $user
+			)
+		);
 	}
 
 	public function install()
@@ -39,7 +66,7 @@ class PageVisitorsOnline
 
 		$sql = "CREATE TABLE $table_name (
 			id mediumint(9) NOT NULL AUTO_INCREMENT,
-			visit_time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
+			visit_date datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
 			page_id tinytext NOT NULL,
 			user_hash text NOT NULL,
 			PRIMARY KEY id (id)
