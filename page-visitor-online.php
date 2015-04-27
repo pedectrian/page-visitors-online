@@ -33,30 +33,32 @@ class PageVisitorsOnline
 			setcookie('pvo_hash', $user, time()+3600*24*100);
 		}
 
-		global $wpdb;
-		global $post;
+		if ($user) {
+			global $wpdb;
+			global $post;
 
-		$table_name = $wpdb->prefix . 'page_visitors_online';
-		$postID = $post->ID;
-		$now = new \DateTime('now -2 minute');
+			$table_name = $wpdb->prefix . 'page_visitors_online';
+			$postID = $post->ID;
+			$now = new \DateTime('now -2 minute');
 
-		$wpdb->query(
-			$wpdb->prepare(
-				"
+			$wpdb->query(
+				$wpdb->prepare(
+					"
                 DELETE FROM $table_name
 				 	WHERE user_hash = %s OR
 				 	visit_date < $now->format('Y-m-d H:i:s')
 				",
-				$user
-			)
-		);
+					$user
+				)
+			);
 
-		$wpdb->insert($table_name , array(
-				'visit_date' => date('Y-m-d H:i:s'),
-				'page_id' => $postID,
-				'user_hash' => $user
-			)
-		);
+			$wpdb->insert($table_name , array(
+					'visit_date' => date('Y-m-d H:i:s'),
+					'page_id' => $postID,
+					'user_hash' => $user
+				)
+			);
+		}
 	}
 
 	public function install()
@@ -88,7 +90,7 @@ class PageVisitorsOnline
 		$visits = $wpdb->query(
 			"SELECT count(DISTINCT id) FROM $table_name"
 		);
-		return '<b>Читают эту статью: </b>' . $visits . ' чел.';
+		return 'Просмотров: <b>за все время: </b>0<b>за сегодня: </b>0<b>Читают сейчас: </b>' . $visits . ' чел.';
 	}
 }
 

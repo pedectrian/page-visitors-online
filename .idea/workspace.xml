@@ -30,15 +30,13 @@
       <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7222222" vertical-offset="852" max-vertical-offset="1500">
-              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.7685185" vertical-offset="882" max-vertical-offset="1530">
+              <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430177566000" expanded="true" signature="942:992" placeholder="DELETE FROM ..." />
-                <marker date="1430177566000" expanded="true" signature="942:1016" placeholder="DELETE FROM ..." />
-                <marker date="1430177566000" expanded="true" signature="942:1042" placeholder="DELETE FROM ..." />
-                <marker date="1430177566000" expanded="true" signature="1380:1599" placeholder="CREATE TABLE..." />
-                <marker date="1430177566000" expanded="true" signature="1948:1965" placeholder="DELETE FROM ..." />
+                <marker date="1430177773000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
+                <marker date="1430177773000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
+                <marker date="1430177773000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -232,15 +230,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7222222" vertical-offset="852" max-vertical-offset="1500">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7685185" vertical-offset="882" max-vertical-offset="1530">
+          <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430177566000" expanded="true" signature="942:992" placeholder="DELETE FROM ..." />
-            <marker date="1430177566000" expanded="true" signature="942:1016" placeholder="DELETE FROM ..." />
-            <marker date="1430177566000" expanded="true" signature="942:1042" placeholder="DELETE FROM ..." />
-            <marker date="1430177566000" expanded="true" signature="1380:1599" placeholder="CREATE TABLE..." />
-            <marker date="1430177566000" expanded="true" signature="1948:1965" placeholder="DELETE FROM ..." />
+            <marker date="1430177773000" expanded="true" signature="965:1065" placeholder="DELETE FROM ..." />
+            <marker date="1430177773000" expanded="true" signature="1416:1635" placeholder="CREATE TABLE..." />
+            <marker date="1430177773000" expanded="true" signature="1984:2001" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
