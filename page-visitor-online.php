@@ -86,9 +86,7 @@ class PageVisitorsOnline
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
 		$visits = $wpdb->query(
-			$wpdb->prepare(
-				"SELECT count(DISTINCT id) FROM $table_name"
-			)
+			"SELECT count(DISTINCT id) FROM $table_name"
 		);
 		return '<b>Читают эту статью: </b>' . $visits . ' чел.';
 	}
