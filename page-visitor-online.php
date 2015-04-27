@@ -49,7 +49,7 @@ class PageVisitorsOnline
 					$user
 				)
 			);
-			$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
+			(string)$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
 			$wpdb->insert($table_name , array(
 					'visit_date' => date('Y-m-d H:i:s'),
 					'page_id' => $thePostID,
@@ -86,7 +86,7 @@ class PageVisitorsOnline
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
 
-		$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
+		(string)$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
 		$visits = $wpdb->query(
 			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = $thePostID"
 		);
