@@ -54,7 +54,7 @@ class PageVisitorsOnline
 
 			$wpdb->insert($table_name , array(
 					'visit_date' => date('Y-m-d H:i:s'),
-					'page_id' => $postID,
+					'page_id' => get_queried_object_id(),
 					'user_hash' => $user
 				)
 			);
@@ -88,7 +88,7 @@ class PageVisitorsOnline
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
 		$visits = $wpdb->query(
-			"SELECT count(DISTINCT id) FROM $table_name"
+			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = " . get_queried_object_id()
 		);
 		return 'Просмотров: <b>за все время: </b>0<b>, за сегодня: </b>0.<b> Читают сейчас: </b>' . $visits;
 	}
