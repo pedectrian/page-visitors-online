@@ -30,12 +30,12 @@
       <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5555556" vertical-offset="375" max-vertical-offset="1305">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.41666666" vertical-offset="495" max-vertical-offset="1305">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430176353000" expanded="true" signature="812:865" placeholder="DELETE FROM ..." />
-                <marker date="1430176353000" expanded="true" signature="1205:1424" placeholder="CREATE TABLE..." />
+                <marker date="1430176553000" expanded="true" signature="812:865" placeholder="DELETE FROM ..." />
+                <marker date="1430176553000" expanded="true" signature="1203:1422" placeholder="CREATE TABLE..." />
               </folding>
             </state>
           </provider>
@@ -229,12 +229,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556" vertical-offset="375" max-vertical-offset="1305">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="495" max-vertical-offset="1305">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430176353000" expanded="true" signature="812:865" placeholder="DELETE FROM ..." />
-            <marker date="1430176353000" expanded="true" signature="1205:1424" placeholder="CREATE TABLE..." />
+            <marker date="1430176553000" expanded="true" signature="812:865" placeholder="DELETE FROM ..." />
+            <marker date="1430176553000" expanded="true" signature="1203:1422" placeholder="CREATE TABLE..." />
           </folding>
         </state>
       </provider>

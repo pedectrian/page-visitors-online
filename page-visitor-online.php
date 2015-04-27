@@ -47,9 +47,9 @@ class PageVisitorsOnline
 				$user
 			)
 		);
-		
+
 		$wpdb->insert($table_name , array(
-				'visit_time' => date('Y-m-d H:i:s'),
+				'visit_date' => date('Y-m-d H:i:s'),
 				'page_id' => $postID,
 				'user_hash' => $user
 			)
