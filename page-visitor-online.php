@@ -41,7 +41,7 @@ class PageVisitorsOnline
 		$wpdb->query(
 			$wpdb->prepare(
 				"
-                DELETE FROM $wpdb->postmeta
+                DELETE FROM $table_name
 				 WHERE user_hash = %s
 				",
 				$user
