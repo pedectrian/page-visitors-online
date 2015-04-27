@@ -27,3 +27,5 @@ class PageVisitorsOnline {
 		}
 	}
 }
+
+$pageVisitorsOnline = new PageVisitorsOnline();
