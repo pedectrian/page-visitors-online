@@ -90,7 +90,7 @@ class PageVisitorsOnline
 		$visits = $wpdb->query(
 			"SELECT count(DISTINCT id) FROM $table_name"
 		);
-		return 'Просмотров: <b>за все время: </b>0<b>за сегодня: </b>0<b>Читают сейчас: </b>' . $visits . ' чел.';
+		return 'Просмотров: <b>за все время: </b>0<b>, за сегодня: </b>0<b> Читают сейчас: </b>' . $visits . ' чел.';
 	}
 }
 
