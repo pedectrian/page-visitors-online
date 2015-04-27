@@ -24,6 +24,7 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 
+		add_shortcode( 'page_visitors_online', array( $this, 'pageVisitorsOnlineShortcode') );
 		$user = isset($_COOKIE['pvo_hash']) ? $_COOKIE['pvo_hash'] : null;
 
 		if (!is_admin() && !$user) {
@@ -37,7 +38,7 @@ class PageVisitorsOnline
 
 		$table_name = $wpdb->prefix . 'page_visitors_online';
 		$postID = $post->ID;
-		$now = new \DateTime('now -1 minute');
+		$now = new \DateTime('now -2 minute');
 
 		$wpdb->query(
 			$wpdb->prepare(
@@ -78,6 +79,18 @@ class PageVisitorsOnline
 		dbDelta( $sql );
 
 		add_option( 'pvo_db_version', PageVisitorsOnline::DB_VERSION );
+	}
+
+	public function pageVisitorsOnlineShortcode()
+	{
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'page_visitors_online';
+		$visits = $wpdb->query(
+			$wpdb->prepare(
+				"SELECT count(DISTINCT id) FROM $table_name"
+			)
+		);
+		return '<b>Читают эту статью: </b>' . $visits . ' чел.';
 	}
 }
 
