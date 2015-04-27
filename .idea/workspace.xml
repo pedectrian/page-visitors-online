@@ -30,16 +30,16 @@
       <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7916667" vertical-offset="867" max-vertical-offset="1560">
-              <caret line="92" column="83" selection-start-line="92" selection-start-column="83" selection-end-line="92" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.6527778" vertical-offset="882" max-vertical-offset="1530">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430178381000" expanded="true" signature="924:1024" placeholder="DELETE FROM ..." />
-                <marker date="1430178381000" expanded="true" signature="1435:1654" placeholder="CREATE TABLE..." />
-                <marker date="1430178381000" expanded="true" signature="2035:2093" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430178381000" expanded="true" signature="2035:2094" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430178381000" expanded="true" signature="2035:2105" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430178381000" expanded="true" signature="2060:2077" placeholder="DELETE FROM ..." />
+                <marker date="1430178642000" expanded="true" signature="924:1024" placeholder="DELETE FROM ..." />
+                <marker date="1430178642000" expanded="true" signature="1438:1657" placeholder="CREATE TABLE..." />
+                <marker date="1430178642000" expanded="true" signature="2042:2100" placeholder="SELECT count.._table_name WHERE..." />
+                <marker date="1430178642000" expanded="true" signature="2042:2101" placeholder="SELECT count.._table_name WHERE..." />
+                <marker date="1430178642000" expanded="true" signature="2042:2112" placeholder="SELECT count.._table_name WHERE..." />
+                <marker date="1430178642000" expanded="true" signature="2067:2084" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -233,16 +233,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7916667" vertical-offset="867" max-vertical-offset="1560">
-          <caret line="92" column="83" selection-start-line="92" selection-start-column="83" selection-end-line="92" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.6527778" vertical-offset="882" max-vertical-offset="1530">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430178381000" expanded="true" signature="924:1024" placeholder="DELETE FROM ..." />
-            <marker date="1430178381000" expanded="true" signature="1435:1654" placeholder="CREATE TABLE..." />
-            <marker date="1430178381000" expanded="true" signature="2035:2093" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430178381000" expanded="true" signature="2035:2094" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430178381000" expanded="true" signature="2035:2105" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430178381000" expanded="true" signature="2060:2077" placeholder="DELETE FROM ..." />
+            <marker date="1430178642000" expanded="true" signature="924:1024" placeholder="DELETE FROM ..." />
+            <marker date="1430178642000" expanded="true" signature="1438:1657" placeholder="CREATE TABLE..." />
+            <marker date="1430178642000" expanded="true" signature="2042:2100" placeholder="SELECT count.._table_name WHERE..." />
+            <marker date="1430178642000" expanded="true" signature="2042:2101" placeholder="SELECT count.._table_name WHERE..." />
+            <marker date="1430178642000" expanded="true" signature="2042:2112" placeholder="SELECT count.._table_name WHERE..." />
+            <marker date="1430178642000" expanded="true" signature="2067:2084" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
