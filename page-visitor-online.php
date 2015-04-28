@@ -103,7 +103,7 @@ class PageVisitorsOnline
 		if (!$daily) {$daily = 0;}
 
 		$visits = $wpdb->query(
-			"SELECT 2 FROM $table_name"
+			"SELECT count(id) FROM $table_name"
 		);
 
 		var_dump($visits); die;
