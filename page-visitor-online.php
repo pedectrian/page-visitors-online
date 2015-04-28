@@ -94,9 +94,13 @@ class PageVisitorsOnline
 			"SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1"
 		);
 
+		if (!$total) {$total = 0;}
 		$daily = $wpdb->query(
 			"SELECT count FROM $daily_stats WHERE page_id = $post->ID LIMIT 1"
 		);
+
+
+		if (!$daily) {$daily = 0;}
 
 		$visits = $wpdb->query(
 			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = $post->ID"
