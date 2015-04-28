@@ -39,6 +39,10 @@ class PageVisitorsOnline
 			$table_name = $wpdb->prefix . 'page_visitors_online';
 			$now = new \DateTime('now -4 hours');
 
+			var_dump("DELETE FROM $table_name
+				 	WHERE user_hash = %s OR
+				 	visit_date < $now->format('Y-m-d H:i:s')
+				"); die;
 			$wpdb->query(
 				$wpdb->prepare(
 					"
@@ -85,8 +89,8 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
-		$total_stats = $wpdb->prefix . 'kent_pvc';
-		$daily_stats = $wpdb->prefix . 'kent_pvc_info';
+		$total_stats = $wpdb->prefix . 'kento_pvc';
+		$daily_stats = $wpdb->prefix . 'kento_pvc_info';
 
 		global $post;
 
