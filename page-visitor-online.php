@@ -37,7 +37,7 @@ class PageVisitorsOnline
 			global $wpdb;
 
 			$table_name = $wpdb->prefix . 'page_visitors_online';
-			$now = new \DateTime('now -10 hours');
+			$now = new \DateTime('now -3 minutes');
 
 			$wpdb->query(
 				$wpdb->prepare(
