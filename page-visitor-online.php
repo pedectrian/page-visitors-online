@@ -37,18 +37,14 @@ class PageVisitorsOnline
 			global $wpdb;
 
 			$table_name = $wpdb->prefix . 'page_visitors_online';
-			$now = new \DateTime('now -4 hours');
+			$now = new \DateTime('now -10 min');
 
-			var_dump("DELETE FROM $table_name
-				 	WHERE user_hash = %s OR
-				 	visit_date < {$now->format('Y-m-d H:i:s')}
-				"); die;
 			$wpdb->query(
 				$wpdb->prepare(
 					"
                 DELETE FROM $table_name
 				 	WHERE user_hash = %s OR
-				 	visit_date < {$now->format('Y-m-d H:i:s')}
+				 	visit_date < '{$now->format('Y-m-d H:i:s')}'
 				",
 					$user
 				)
