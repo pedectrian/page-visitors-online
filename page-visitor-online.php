@@ -103,7 +103,7 @@ class PageVisitorsOnline
 		if (!$daily) {$daily = 0;}
 
 		$visits = $wpdb->query(
-			"SELECT count(user_hash) FROM $table_name"
+			"SELECT 2 FROM $table_name"
 		);
 
 		var_dump($visits); die;
