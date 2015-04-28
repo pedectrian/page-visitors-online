@@ -49,10 +49,10 @@ class PageVisitorsOnline
 					$user
 				)
 			);
-			(string)$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
+			$thePost = get_page_by_path( $_SERVER['REQUEST_URI'] );
 			$wpdb->insert($table_name , array(
 					'visit_date' => date('Y-m-d H:i:s'),
-					'page_id' => $thePostID,
+					'page_id' => $thePost->ID,
 					'user_hash' => $user
 				)
 			);
