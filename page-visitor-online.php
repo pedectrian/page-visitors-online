@@ -102,11 +102,7 @@ class PageVisitorsOnline
 
 		if (!$daily) {$daily = 0;}
 
-		$visits = $wpdb->query(
-			"SELECT count(id) FROM $table_name"
-		);
-
-		var_dump($visits); die;
+		$visits = $wpdb->get_var( "SELECT COUNT(id) FROM $table_name" );
 		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас:11 </b>' . $visits;
 	}
 }
