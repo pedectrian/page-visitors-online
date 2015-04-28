@@ -95,7 +95,9 @@ class PageVisitorsOnline
 		);
 
 		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
+		if (!$total) {$total = 0;}
 		$daily = $wpdb->get_var( "SELECT count FROM $daily_stats WHERE page_id = $post->ID LIMIT 1" );
+		if (!$daily) {$daily = 0;}
 
 		$visits = $wpdb->get_var( "SELECT COUNT(id) FROM $table_name" );
 		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас: </b>' . $visits;
