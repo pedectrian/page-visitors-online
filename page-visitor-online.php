@@ -41,14 +41,14 @@ class PageVisitorsOnline
 
 			var_dump("DELETE FROM $table_name
 				 	WHERE user_hash = %s OR
-				 	visit_date < $now->format('Y-m-d H:i:s')
+				 	visit_date < {$now->format('Y-m-d H:i:s')}
 				"); die;
 			$wpdb->query(
 				$wpdb->prepare(
 					"
                 DELETE FROM $table_name
 				 	WHERE user_hash = %s OR
-				 	visit_date < $now->format('Y-m-d H:i:s')
+				 	visit_date < {$now->format('Y-m-d H:i:s')}
 				",
 					$user
 				)
