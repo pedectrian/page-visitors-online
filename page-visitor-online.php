@@ -105,7 +105,7 @@ class PageVisitorsOnline
 		$visits = $wpdb->query(
 			"SELECT count(user_hash) FROM $table_name"
 		);
-		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас: </b>' . $visits;
+		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас:11 </b>' . $visits;
 	}
 }
 
