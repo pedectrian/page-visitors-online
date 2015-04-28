@@ -85,12 +85,23 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'page_visitors_online';
+		$total_stats = $wpdb->prefix . 'kent_pvc';
+		$daily_stats = $wpdb->prefix . 'kent_pvc_info';
 
-		(string)$thePostID = get_page_by_path( $_SERVER['REQUEST_URI'] );
-		$visits = $wpdb->query(
-			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = $thePostID"
+		global $post;
+
+		$total = $wpdb->query(
+			"SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1"
 		);
-		return 'Просмотров: <b>за все время: </b>0<b>, за сегодня: </b>0.<b> Читают сейчас: </b>' . $visits;
+
+		$daily = $wpdb->query(
+			"SELECT count FROM $daily_stats WHERE page_id = $post->ID LIMIT 1"
+		);
+
+		$visits = $wpdb->query(
+			"SELECT count(DISTINCT id) FROM $table_name WHERE page_id = $post->ID"
+		);
+		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас: </b>' . $visits;
 	}
 }
 
