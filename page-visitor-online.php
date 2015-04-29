@@ -36,11 +36,7 @@ class PageVisitorsOnline
 		if ( $user ) {
 			self::cleanOldLookers($user);
 
-//			if ( defined( 'DOING_AJAX' ) && !DOING_AJAX )
-//			{
-				self::lookAtPage($user);
-//			}
-
+			self::lookAtPage($user);
 		}
 	}
 
@@ -168,9 +164,9 @@ class PageVisitorsOnline
 
 		$page = $_SERVER['REQUEST_URI'];
 		$total = null;
-		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM {$dailyVisitorsTable} WHERE page_id = $post->ID LIMIT 1" )?: 0;
+		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM {$dailyVisitorsTable} WHERE page_id = '{$page}'" )?: 0;
 
-		$onlineVisitors = $wpdb->get_var( "SELECT COUNT(id) FROM $onlineVisitorsTable WHERE page_id = '{$page}'" );
+		$onlineVisitors = $wpdb->get_var( "SELECT COUNT(id) FROM {$onlineVisitorsTable} WHERE page_id = '{$page}'" );
 		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас: </b>' . $onlineVisitors;
 	}
 }
