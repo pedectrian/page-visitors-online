@@ -24,8 +24,6 @@ class PageVisitorsOnline
 
 	public function init()
 	{
-		global $wpdb;
-
 		add_shortcode( 'page_visitors_online', array( $this, 'pageVisitorsOnlineShortcode') );
 		$user = isset($_COOKIE['pvo_hash']) ? $_COOKIE['pvo_hash'] : null;
 
@@ -36,10 +34,8 @@ class PageVisitorsOnline
 		}
 
 		if ( $user ) {
-
-
-
-
+			self::cleanOldLookers($user);
+			self::lookAtPage($user);
 		}
 	}
 
@@ -47,7 +43,7 @@ class PageVisitorsOnline
 	 * Removes user's history and old (> 3min) page views
 	 * @param string $user
 	 */
-	protected function cleanOldLookers($user)
+	public static function cleanOldLookers($user)
 	{
 		global $wpdb;
 		$now = new \DateTime('now -3 minutes');
@@ -80,7 +76,7 @@ class PageVisitorsOnline
 	 * Adds an online visitor and daily view
 	 * @param string $user
 	 */
-	protected function lookAtPage($user)
+	public static function lookAtPage($user)
 	{
 		global $wpdb;
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
