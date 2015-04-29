@@ -55,7 +55,7 @@ class PageVisitorsOnline
 		$yesterday = new \DateTime('now');
 		$yesterday->setTime(0, 0, 0);
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
-		$daylyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
+		$dailyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
 
 		$wpdb->query(
 			$wpdb->prepare(
@@ -68,7 +68,7 @@ class PageVisitorsOnline
 		);
 		$wpdb->query(
 			$wpdb->prepare(
-				"DELETE FROM {$daylyVisitorsTable}
+				"DELETE FROM {$dailyVisitorsTable}
 				 	WHERE visit_date < '{$yesterday->format('Y-m-d H:i:s')}'
 				",
 				$user
@@ -84,9 +84,10 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
-		$daylyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
+		$dailyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
 
 		$page = $_SERVER['REQUEST_URI'];
+		print_r($_SERVER);
 
 		$wpdb->insert($onlineVisitorsTable , array(
 				'visit_date' => date('Y-m-d H:i:s'),
@@ -95,7 +96,7 @@ class PageVisitorsOnline
 			)
 		);
 
-		$wpdb->insert($daylyVisitorsTable , array(
+		$wpdb->insert($dailyVisitorsTable , array(
 				'visit_date' => date('Y-m-d H:i:s'),
 				'page_id' => $page,
 				'user_hash' => $user
@@ -158,18 +159,17 @@ class PageVisitorsOnline
 		global $wpdb;
 
 //		$total_stats = $wpdb->prefix . 'kento_pvc';
+//		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
+
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
-		$daylyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
+		$dailyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
 
 		global $post;
 
-//		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
-		$total = null;
-		if (!$total) {$total = 0;}
-		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM $daylyVisitorsTable WHERE page_id = $post->ID LIMIT 1" );
-		if (!$daily) {$daily = 0;}
-
 		$page = $_SERVER['REQUEST_URI'];
+		$total = null;
+		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM {$dailyVisitorsTable} WHERE page_id = $post->ID LIMIT 1" )?: 0;
+
 		$onlineVisitors = $wpdb->get_var( "SELECT COUNT(id) FROM $onlineVisitorsTable WHERE page_id = '{$page}'" );
 		return 'Просмотров: <b>за все время: </b>' . $total .'<b>, за сегодня: </b>' . $daily . '.<b> Читают сейчас: </b>' . $onlineVisitors;
 	}
