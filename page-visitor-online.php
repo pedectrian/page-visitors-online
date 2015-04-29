@@ -36,7 +36,7 @@ class PageVisitorsOnline
 		if ( $user ) {
 			self::cleanOldLookers($user);
 
-			if ( !defined( 'DOING_AJAX' ) && !DOING_AJAX )
+			if ( defined( 'DOING_AJAX' ) && !DOING_AJAX )
 			{
 				self::lookAtPage($user);
 			}
