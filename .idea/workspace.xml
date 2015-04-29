@@ -2,7 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca08330-7bad-4f37-9a2d-64ee9c24904d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/cert.p12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/IO/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Logger/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Signer/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Verifier/Abstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AdExchangeBuyer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AdExchangeSeller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AdSense.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AdSenseHost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/adsense/AdSenseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Analytics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AndroidEnterprise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AndroidPublisher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/Apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiBatchRequestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiCacheParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiMediaFileUploadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiModelTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ApiOAuth2Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/AppIdentity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/AppState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Appsactivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/AssertionCredentials.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Audit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/AuthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Autoscaler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/BaseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Http/Batch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Bigquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Blogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Books.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Http/CacheParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/CacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Calendar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/CivicInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/CloudMonitoring.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Cloudlatencytest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Cloudsearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Compute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/ComputeEngine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ComputeEngineAuthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Computeaccounts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Coordinate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/IO/Curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Customsearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Dataflow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Datastore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Deploymentmanager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Dfareporting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Directory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Dns.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/DoubleClickBidManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Doubleclicksearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Drive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/IO/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Logger/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Task/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Logger/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Fitness.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Freebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Fusiontables.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/GAService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Games.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/GamesConfiguration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/GamesManagement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Genomics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Gmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/GroupsMigration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Groupssettings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/IdentityToolkit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/IoTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Licensing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/LoggerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Logging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/LoginTicket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/MapsEngine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Http/MediaFileUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Mirror.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Cache/Null.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Logger/Null.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/OAuth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/OAuthHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Oauth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Signer/P12.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/pagespeed/PageSpeedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Pagespeedonline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Verifier/Pem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Plus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/PlusDomains.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/plus/PlusTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Prediction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Logger/Psr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Pubsub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/QPXExpress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Http/REST.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Replicapool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Replicapoolupdater.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Reports.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/RequestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Reseller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Resource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Resourceviews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/RestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Task/Retryable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Task/Runner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/SQLAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/ServiceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/ShoppingContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Auth/Simple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/SiteVerification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Spectrum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Storage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/IO/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/TagManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/TaskTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Taskqueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Tasks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/tasks/TasksTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Translate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Utils/URITemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/URITemplateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/urlshortener/UrlShortenerTests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Urlshortener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Webfonts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/Webmasters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/YouTube.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/Service/YouTubeAnalytics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/youtube/YouTubeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/appengineauth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/templates/base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/batch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/cacert.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/cacert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/src/Google/IO/cacerts.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/fileupload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/idtoken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/multi-api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/privkey.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/style/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/service-12345.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/service-account.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/service-rsa-12345.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/simple-query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/simplefileupload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/test.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/tests/general/testdata/test_public_key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/gapi/examples/user-example.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-visitor-online.php" afterPath="$PROJECT_DIR$/page-visitor-online.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="page-visitors-online.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,27 +208,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6694915" vertical-offset="2095" max-vertical-offset="2685">
-              <caret line="166" column="103" selection-start-line="166" selection-start-column="103" selection-end-line="166" selection-end-column="103" />
+            <state vertical-scroll-proportion="-6.9166665" vertical-offset="2054" max-vertical-offset="2700">
+              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430344369000" expanded="true" signature="1308:1412" placeholder="DELETE FROM ..." />
-                <marker date="1430344369000" expanded="true" signature="1510:1606" placeholder="DELETE FROM ..." />
-                <marker date="1430344369000" expanded="true" signature="1634:1689" placeholder="CREATE TABLE..." />
-                <marker date="1430344369000" expanded="true" signature="2086:2202" placeholder="CREATE TABLE..." />
-                <marker date="1430344369000" expanded="true" signature="2134:2198" placeholder="SELECT count.._total_stats WHERE..." />
-                <marker date="1430344369000" expanded="true" signature="2739:2958" placeholder="CREATE TABLE..." />
-                <marker date="1430344369000" expanded="true" signature="3193:3412" placeholder="CREATE TABLE..." />
-                <marker date="1430344369000" expanded="true" signature="3872:3931" placeholder="SELECT count.._daily_stats WHERE..." />
-                <marker date="1430344369000" expanded="true" signature="3901:3923" placeholder="SELECT COUNT..dailyVisitorsTable..." />
-                <marker date="1430344369000" expanded="true" signature="4017:4039" placeholder="SELECT COUNT..wpdb_users..." />
-                <marker date="1430344369000" expanded="true" signature="4017:4077" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-                <marker date="1430344369000" expanded="true" signature="4017:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-                <marker date="1430344369000" expanded="true" signature="4017:4087" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430346055000" expanded="true" signature="1327:1442" placeholder="DELETE FROM ..." />
+                <marker date="1430346055000" expanded="true" signature="1510:1606" placeholder="DELETE FROM ..." />
+                <marker date="1430346055000" expanded="true" signature="2739:2958" placeholder="CREATE TABLE..." />
+                <marker date="1430346055000" expanded="true" signature="3193:3412" placeholder="CREATE TABLE..." />
+                <marker date="1430346055000" expanded="true" signature="3896:3965" placeholder="SELECT COUNT.._dailyVisitorsTable_ WHERE..." />
+                <marker date="1430346055000" expanded="true" signature="4012:4082" placeholder="SELECT COUNT.._onlineVisitorsTable_ WHERE..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Curl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/gapi/src/Google/IO/Curl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="150" max-vertical-offset="2565">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GAService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/GAService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="750">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="21" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +276,9 @@
       <list>
         <option value="$PROJECT_DIR$/inc/1.js" />
         <option value="$PROJECT_DIR$/page-visitor-online.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/inc/config.php" />
+        <option value="$PROJECT_DIR$/inc/GAService.php" />
       </list>
     </option>
   </component>
@@ -70,7 +287,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-11" />
+    <option name="y" value="42" />
     <option name="width" value="1440" />
     <option name="height" value="790" />
   </component>
@@ -129,24 +347,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page-visitors-online" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page-visitors-online" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -158,10 +358,15 @@
     <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc/gapi" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc/gapi" />
     </key>
   </component>
   <component name="RunManager">
@@ -179,15 +384,23 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aca08330-7bad-4f37-9a2d-64ee9c24904d" name="Default" comment="" />
@@ -198,25 +411,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="790" extended-state="6" />
+    <frame x="-11" y="42" width="1440" height="790" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -238,9 +451,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -266,24 +479,73 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6694915" vertical-offset="2095" max-vertical-offset="2685">
-          <caret line="166" column="103" selection-start-line="166" selection-start-column="103" selection-end-line="166" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2095" max-vertical-offset="2685">
+          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430344369000" expanded="true" signature="1308:1412" placeholder="DELETE FROM ..." />
-            <marker date="1430344369000" expanded="true" signature="1510:1606" placeholder="DELETE FROM ..." />
-            <marker date="1430344369000" expanded="true" signature="1634:1689" placeholder="CREATE TABLE..." />
-            <marker date="1430344369000" expanded="true" signature="2086:2202" placeholder="CREATE TABLE..." />
-            <marker date="1430344369000" expanded="true" signature="2134:2198" placeholder="SELECT count.._total_stats WHERE..." />
-            <marker date="1430344369000" expanded="true" signature="2739:2958" placeholder="CREATE TABLE..." />
-            <marker date="1430344369000" expanded="true" signature="3193:3412" placeholder="CREATE TABLE..." />
-            <marker date="1430344369000" expanded="true" signature="3872:3931" placeholder="SELECT count.._daily_stats WHERE..." />
-            <marker date="1430344369000" expanded="true" signature="3901:3923" placeholder="SELECT COUNT..dailyVisitorsTable..." />
-            <marker date="1430344369000" expanded="true" signature="4017:4039" placeholder="SELECT COUNT..wpdb_users..." />
-            <marker date="1430344369000" expanded="true" signature="4017:4077" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-            <marker date="1430344369000" expanded="true" signature="4017:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-            <marker date="1430344369000" expanded="true" signature="4017:4087" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430346055000" expanded="true" signature="1327:1442" placeholder="DELETE FROM ..." />
+            <marker date="1430346055000" expanded="true" signature="1510:1606" placeholder="DELETE FROM ..." />
+            <marker date="1430346055000" expanded="true" signature="2739:2958" placeholder="CREATE TABLE..." />
+            <marker date="1430346055000" expanded="true" signature="3193:3412" placeholder="CREATE TABLE..." />
+            <marker date="1430346055000" expanded="true" signature="3896:3965" placeholder="SELECT COUNT.._dailyVisitorsTable_ WHERE..." />
+            <marker date="1430346055000" expanded="true" signature="4012:4082" placeholder="SELECT COUNT.._onlineVisitorsTable_ WHERE..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/gapi/src/Google/IO/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/gapi/src/Google/IO/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2565">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9166665" vertical-offset="2054" max-vertical-offset="2700">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#152#0#PHP" expanded="true" />
+            <marker date="1430346055000" expanded="true" signature="1327:1442" placeholder="DELETE FROM ..." />
+            <marker date="1430346055000" expanded="true" signature="1510:1606" placeholder="DELETE FROM ..." />
+            <marker date="1430346055000" expanded="true" signature="2739:2958" placeholder="CREATE TABLE..." />
+            <marker date="1430346055000" expanded="true" signature="3193:3412" placeholder="CREATE TABLE..." />
+            <marker date="1430346055000" expanded="true" signature="3896:3965" placeholder="SELECT COUNT.._dailyVisitorsTable_ WHERE..." />
+            <marker date="1430346055000" expanded="true" signature="4012:4082" placeholder="SELECT COUNT.._onlineVisitorsTable_ WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/GAService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="750">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="21" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

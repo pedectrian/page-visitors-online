@@ -154,8 +154,9 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 
-//		$total_stats = $wpdb->prefix . 'kento_pvc';
-//		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
+		require_once( plugin_dir_path( __FILE__ ) . 'inc/GAService.php' );
+		$gaSerive = new \GAService(new \Google_Client());
+//		$gaSerive->login();
 
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
 		$dailyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
@@ -163,7 +164,7 @@ class PageVisitorsOnline
 		global $post;
 
 		$page = $_SERVER['REQUEST_URI'];
-		$total = null;
+		$total = 0;
 		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM {$dailyVisitorsTable} WHERE page_id = '{$page}'" )?: 0;
 
 		$onlineVisitors = $wpdb->get_var( "SELECT COUNT(id) FROM {$onlineVisitorsTable} WHERE page_id = '{$page}'" );
