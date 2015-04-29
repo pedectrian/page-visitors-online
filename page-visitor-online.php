@@ -27,7 +27,7 @@ class PageVisitorsOnline
 		add_shortcode( 'page_visitors_online', array( $this, 'pageVisitorsOnlineShortcode') );
 		$user = isset($_COOKIE['pvo_hash']) ? $_COOKIE['pvo_hash'] : null;
 
-		if (!is_admin() && !$user) {
+		if (!$user) {
 			$user = uniqid() . uniqid();
 
 			setcookie('pvo_hash', $user, time()+3600*24*100);
@@ -35,7 +35,12 @@ class PageVisitorsOnline
 
 		if ( $user ) {
 			self::cleanOldLookers($user);
-			self::lookAtPage($user);
+
+			if ( !defined( 'DOING_AJAX' ) && !DOING_AJAX )
+			{
+				self::lookAtPage($user);
+			}
+
 		}
 	}
 
