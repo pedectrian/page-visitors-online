@@ -30,23 +30,21 @@
       <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2824074" vertical-offset="402" max-vertical-offset="1680">
-              <caret line="39" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.65170276" vertical-offset="2084" max-vertical-offset="2730">
+              <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430181187000" expanded="true" signature="925:998" placeholder="DELETE FROM ..." />
-                <marker date="1430181187000" expanded="true" signature="925:1027" placeholder="DELETE FROM ..." />
-                <marker date="1430181187000" expanded="true" signature="925:1029" placeholder="DELETE FROM ..." />
-                <marker date="1430181187000" expanded="true" signature="1443:1662" placeholder="CREATE TABLE..." />
-                <marker date="1430181187000" expanded="true" signature="2100:2146" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2100:2147" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2100:2164" placeholder="SELECT count.._stats WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2100:2165" placeholder="SELECT count.._table_name WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2112:2130" placeholder="DELETE FROM ..." />
-                <marker date="1430181187000" expanded="true" signature="2200:2264" placeholder="SELECT count.._total_stats WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2326:2333" placeholder="SELECT COUNT..table_name..." />
-                <marker date="1430181187000" expanded="true" signature="2326:2390" placeholder="SELECT count.._daily_stats WHERE..." />
-                <marker date="1430181187000" expanded="true" signature="2454:2476" placeholder="SELECT COUNT..wpdb_users..." />
+                <marker date="1430343131000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
+                <marker date="1430343131000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
+                <marker date="1430343131000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
+                <marker date="1430343131000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
+                <marker date="1430343131000" expanded="true" signature="3703:3767" placeholder="SELECT count.._total_stats WHERE..." />
+                <marker date="1430343131000" expanded="true" signature="3829:3836" placeholder="SELECT COUNT..table_name..." />
+                <marker date="1430343131000" expanded="true" signature="3829:3904" placeholder="SELECT count.._daily_stats WHERE..." />
+                <marker date="1430343131000" expanded="true" signature="4011:4033" placeholder="SELECT COUNT..wpdb_users..." />
+                <marker date="1430343131000" expanded="true" signature="4011:4069" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430343131000" expanded="true" signature="4011:4071" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430343131000" expanded="true" signature="4011:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
               </folding>
             </state>
           </provider>
@@ -60,6 +58,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/inc/1.js" />
         <option value="$PROJECT_DIR$/page-visitor-online.php" />
       </list>
     </option>
@@ -153,6 +152,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,6 +219,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -240,23 +264,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2824074" vertical-offset="402" max-vertical-offset="1680">
-          <caret line="39" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.65170276" vertical-offset="2084" max-vertical-offset="2730">
+          <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430181187000" expanded="true" signature="925:998" placeholder="DELETE FROM ..." />
-            <marker date="1430181187000" expanded="true" signature="925:1027" placeholder="DELETE FROM ..." />
-            <marker date="1430181187000" expanded="true" signature="925:1029" placeholder="DELETE FROM ..." />
-            <marker date="1430181187000" expanded="true" signature="1443:1662" placeholder="CREATE TABLE..." />
-            <marker date="1430181187000" expanded="true" signature="2100:2146" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2100:2147" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2100:2164" placeholder="SELECT count.._stats WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2100:2165" placeholder="SELECT count.._table_name WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2112:2130" placeholder="DELETE FROM ..." />
-            <marker date="1430181187000" expanded="true" signature="2200:2264" placeholder="SELECT count.._total_stats WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2326:2333" placeholder="SELECT COUNT..table_name..." />
-            <marker date="1430181187000" expanded="true" signature="2326:2390" placeholder="SELECT count.._daily_stats WHERE..." />
-            <marker date="1430181187000" expanded="true" signature="2454:2476" placeholder="SELECT COUNT..wpdb_users..." />
+            <marker date="1430343131000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
+            <marker date="1430343131000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
+            <marker date="1430343131000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
+            <marker date="1430343131000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
+            <marker date="1430343131000" expanded="true" signature="3703:3767" placeholder="SELECT count.._total_stats WHERE..." />
+            <marker date="1430343131000" expanded="true" signature="3829:3836" placeholder="SELECT COUNT..table_name..." />
+            <marker date="1430343131000" expanded="true" signature="3829:3904" placeholder="SELECT count.._daily_stats WHERE..." />
+            <marker date="1430343131000" expanded="true" signature="4011:4033" placeholder="SELECT COUNT..wpdb_users..." />
+            <marker date="1430343131000" expanded="true" signature="4011:4069" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430343131000" expanded="true" signature="4011:4071" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430343131000" expanded="true" signature="4011:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
           </folding>
         </state>
       </provider>
