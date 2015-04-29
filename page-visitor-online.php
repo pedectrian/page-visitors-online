@@ -69,8 +69,7 @@ class PageVisitorsOnline
 		$wpdb->query(
 			$wpdb->prepare(
 				"DELETE FROM {$daylyVisitorsTable}
-				 	WHERE user_hash = %s OR
-				 	visit_date < '{$yesterday->format('Y-m-d H:i:s')}'
+				 	WHERE visit_date < '{$yesterday->format('Y-m-d H:i:s')}'
 				",
 				$user
 			)
