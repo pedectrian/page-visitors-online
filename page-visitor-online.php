@@ -157,13 +157,14 @@ class PageVisitorsOnline
 	{
 		global $wpdb;
 
-		$total_stats = $wpdb->prefix . 'kento_pvc';
+//		$total_stats = $wpdb->prefix . 'kento_pvc';
 		$onlineVisitorsTable = $wpdb->prefix . self::VISITORS_ONLINE_DB;
 		$daylyVisitorsTable = $wpdb->prefix . self::VISITORS_DAILY_DB;
 
 		global $post;
 
-		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
+//		$total = $wpdb->get_var( "SELECT count FROM $total_stats WHERE page_id = $post->ID LIMIT 1" );
+		$total = null;
 		if (!$total) {$total = 0;}
 		$daily = $wpdb->get_var( "SELECT COUNT(id) FROM $daylyVisitorsTable WHERE page_id = $post->ID LIMIT 1" );
 		if (!$daily) {$daily = 0;}

@@ -30,21 +30,21 @@
       <file leaf-file-name="page-visitor-online.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65170276" vertical-offset="2084" max-vertical-offset="2730">
-              <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.48916408" vertical-offset="2084" max-vertical-offset="2745">
+              <caret line="160" column="44" selection-start-line="160" selection-start-column="44" selection-end-line="160" selection-end-column="44" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <marker date="1430343131000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
-                <marker date="1430343131000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
-                <marker date="1430343131000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
-                <marker date="1430343131000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
-                <marker date="1430343131000" expanded="true" signature="3703:3767" placeholder="SELECT count.._total_stats WHERE..." />
-                <marker date="1430343131000" expanded="true" signature="3829:3836" placeholder="SELECT COUNT..table_name..." />
-                <marker date="1430343131000" expanded="true" signature="3829:3904" placeholder="SELECT count.._daily_stats WHERE..." />
-                <marker date="1430343131000" expanded="true" signature="4011:4033" placeholder="SELECT COUNT..wpdb_users..." />
-                <marker date="1430343131000" expanded="true" signature="4011:4069" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-                <marker date="1430343131000" expanded="true" signature="4011:4071" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-                <marker date="1430343131000" expanded="true" signature="4011:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430343425000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
+                <marker date="1430343425000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
+                <marker date="1430343425000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
+                <marker date="1430343425000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
+                <marker date="1430343425000" expanded="true" signature="3707:3771" placeholder="SELECT count.._total_stats WHERE..." />
+                <marker date="1430343425000" expanded="true" signature="3850:3857" placeholder="SELECT COUNT..table_name..." />
+                <marker date="1430343425000" expanded="true" signature="3850:3925" placeholder="SELECT count.._daily_stats WHERE..." />
+                <marker date="1430343425000" expanded="true" signature="4032:4054" placeholder="SELECT COUNT..wpdb_users..." />
+                <marker date="1430343425000" expanded="true" signature="4032:4090" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430343425000" expanded="true" signature="4032:4092" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+                <marker date="1430343425000" expanded="true" signature="4032:4100" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
               </folding>
             </state>
           </provider>
@@ -264,21 +264,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-visitor-online.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65170276" vertical-offset="2084" max-vertical-offset="2730">
-          <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.48916408" vertical-offset="2084" max-vertical-offset="2745">
+          <caret line="160" column="44" selection-start-line="160" selection-start-column="44" selection-end-line="160" selection-end-column="44" />
           <folding>
             <element signature="e#6#152#0#PHP" expanded="true" />
-            <marker date="1430343131000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
-            <marker date="1430343131000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
-            <marker date="1430343131000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
-            <marker date="1430343131000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
-            <marker date="1430343131000" expanded="true" signature="3703:3767" placeholder="SELECT count.._total_stats WHERE..." />
-            <marker date="1430343131000" expanded="true" signature="3829:3836" placeholder="SELECT COUNT..table_name..." />
-            <marker date="1430343131000" expanded="true" signature="3829:3904" placeholder="SELECT count.._daily_stats WHERE..." />
-            <marker date="1430343131000" expanded="true" signature="4011:4033" placeholder="SELECT COUNT..wpdb_users..." />
-            <marker date="1430343131000" expanded="true" signature="4011:4069" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-            <marker date="1430343131000" expanded="true" signature="4011:4071" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
-            <marker date="1430343131000" expanded="true" signature="4011:4079" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430343425000" expanded="true" signature="1297:1412" placeholder="DELETE FROM ..." />
+            <marker date="1430343425000" expanded="true" signature="1480:1600" placeholder="DELETE FROM ..." />
+            <marker date="1430343425000" expanded="true" signature="2703:2922" placeholder="CREATE TABLE..." />
+            <marker date="1430343425000" expanded="true" signature="3149:3368" placeholder="CREATE TABLE..." />
+            <marker date="1430343425000" expanded="true" signature="3707:3771" placeholder="SELECT count.._total_stats WHERE..." />
+            <marker date="1430343425000" expanded="true" signature="3850:3857" placeholder="SELECT COUNT..table_name..." />
+            <marker date="1430343425000" expanded="true" signature="3850:3925" placeholder="SELECT count.._daily_stats WHERE..." />
+            <marker date="1430343425000" expanded="true" signature="4032:4054" placeholder="SELECT COUNT..wpdb_users..." />
+            <marker date="1430343425000" expanded="true" signature="4032:4090" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430343425000" expanded="true" signature="4032:4092" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
+            <marker date="1430343425000" expanded="true" signature="4032:4100" placeholder="SELECT COUNT.._visitorsOnlineTable WHERE..." />
           </folding>
         </state>
       </provider>
