@@ -109,13 +109,13 @@ class PageVisitorsOnline
 	public function install()
 	{
 		require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-		$this->installVisitorsOnlineTable();
-		$this->installVisitorsDailyTable();
+		self::installVisitorsOnlineTable();
+		self::installVisitorsDailyTable();
 
 		add_option( 'pvo_db_version', PageVisitorsOnline::DB_VERSION );
 	}
 
-	public function installVisitorsOnlineTable()
+	public static function installVisitorsOnlineTable()
 	{
 		global $wpdb;
 
@@ -134,7 +134,7 @@ class PageVisitorsOnline
 		dbDelta( $sql );
 	}
 
-	public function installVisitorsDailyTable()
+	public static  function installVisitorsDailyTable()
 	{
 		global $wpdb;
 
